@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <link rel='stylesheet' href='questionsStyles.css'>
+</head>
+<body>
+    <form id="survey-form">
+        <div class="form-control">
+          <label for="car">What car are you curently driving?
+              <small>(N/A if none)</small>
+          </label>
+				
+          <input type="text" name="car" id="car" placeholder="answer" required>
+        </div>
+
+        <div class="form-control">
+
+            <label>Which of these car manufacturers appeals to you the most?
+                
+            </label>
+
+            <!-- Dropdown options -->
+            <select name="brand" id="brand">
+                <option value="vw">VW</option>
+                <option value="audi">Audi</option>
+                <option value="ferrari">Ferrari</option>
+                <option value="mclaren">Mclaren</option>
+                <option value="toyota">Toyota</option>
+                <option value="alpine">Alpine</option>
+                <option value="alfa romeo">Alfa Romeo</option>
+                <option value="bugatti">Bugatti</option>
+                
+                
+            </select>  
+            
+            
+        </div>
+
+            
+        <div class="form-control">
+            <label for="transmission" id="label-transmission">
+                Which transmission type do you prefer?
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="transmission" id="transmission">
+                <option value="manual">Manual</option>
+                <option value="automatic">Automatic</option>
+                
+                
+            </select>
+               
+        </div>
+
+               
+        <div class="form-control">
+            <label>
+                Would you drive an electric car?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <!-- Dropdown options -->
+            <select name="electric" id="electric">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                
+                
+            </select>
+                   
+               
+        </div>
+
+                
+        <div class="form-control">
+            <label for="drivetrain" id="label-drivetrain">
+                Which drivetrain would you prefer?
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="drivetrain" id="drivetrain">
+                <option value="fwd">FWD</option>
+                <option value="rwd">RWD</option>
+                <option value="awd">AWD</option>
+                
+            </select>
+                       
+                
+        </div>
+        <button type="submit" value="submit">
+            Submit
+        </button>
+
+        
+
+
+    
+        
+
+
+	        
+          
+
+
+    </form>
+    <script src="questionsCode.js"></script>
+    <script src="logic.js"></script>
+</body>
+</html>

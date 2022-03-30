@@ -1,0 +1,158 @@
+.container{
+   
+    
+    
+    padding:20px;
+    
+
+   
+}
+#registerinput1{
+    height: 30px;
+    width:98%;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+   
+    
+
+}
+
+/* box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+transition: 0.25s; */
+
+#registerinput1:hover{
+    height: 30px;
+    width:98%;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+   
+    
+
+}
+
+#registerinput2{
+    height: 30px;
+    width: 98%;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    
+
+}
+
+#registerinput2:hover{
+    height: 30px;
+    width: 98%;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+
+    
+
+}
+
+
+#registerinput3{
+    height: 30px;
+    width: 98%;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+
+    
+
+}
+
+#registerinput3:hover{
+    height: 30px;
+    width: 98%;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+    
+
+    
+
+}
+
+
+
+
+.in1{
+    margin-bottom: 30px;
+   
+    margin: 0 auto;
+    width: 300px;
+    
+    
+    
+    
+    
+    
+}
+
+h1{
+    color:white;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 60px;
+}
+body{
+    background-image: url('matte.jpg');
+    
+}
+.buttonCont{
+    width: 100px;
+    margin: 0 auto;
+    
+    
+    
+    
+    
+}
+button{
+    height: 35px;
+    
+    width: 100%;
+    
+    
+    
+   
+    border: 1px solid black;
+    border-radius: 5px;
+    
+    
+    
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.25s;
+}
+
+
+.cont{
+    background-image: linear-gradient(to right, royalblue , purple);
+    height: 500px;
+    width: 400px;
+    
+    padding: 10px;
+    border-radius: 7px;
+    margin: 0 auto;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid black
+
+}

@@ -1,0 +1,119 @@
+.main-container {
+  background-image: linear-gradient(to right, royalblue , purple);
+  height: 500px auto;
+   width: 800px;
+   
+   padding: 10px;
+   border-radius: 7px;
+   margin: 50px auto;
+   border: 2px solid black;
+   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+   
+  }
+  
+  .survey-header {
+    
+    color:white;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 60px;
+  }
+  .question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dot {
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .numbering {
+    position: relative;
+    top: 30%;
+    left: 35%;
+    color: black;
+  }
+  h2 {
+    width: 350px;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -3rem;
+  }
+  .arrow-answer {
+    color: white;
+    font-size: 20px;
+  }
+  .standard-input {
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+  }
+  
+  .arrow-answer-yes-no {
+    justify-content: flex-start;
+  }
+  .yes-no {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .answer-yes-no {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -11rem;
+  }
+  
+  .answer-textAreaField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+  }
+  .answer-checkRadio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -11rem;
+  }
+  
+  .radioQuestions {
+    display: block;
+  }
+  
+  .submitting-answers {
+    height: 35px;
+    
+    width: 10%;
+    
+    
+    
+   
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 350px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+  }
+  .submitting-answers:hover {
+    background-color: black;
+    color: white;
+    transition: 0.25s;
+    
+  }
+  body{
+    background-image: url('matte.jpg');
+  }

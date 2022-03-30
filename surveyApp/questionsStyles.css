@@ -1,0 +1,80 @@
+/* .container{
+   
+    
+    
+    padding:20px;
+    
+
+   
+}
+
+h1{
+    color:black;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;}
+    */
+
+body{
+    background-image: url('matte.jpg');
+
+    
+} 
+
+form{
+    background-image: linear-gradient(to right, royalblue, purple);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+
+}
+.form-control{
+    text-align: left;
+    margin-bottom: 40px;
+}
+.form-control label{
+    display: block;
+    margin-bottom: 15px;
+
+}
+.form-control input,
+.form-control select{
+    border: 1px solid black;
+    border-radius: 5px;
+    
+    padding: 10px;
+    
+     
+
+}
+button {
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 35px;
+    
+    
+    width: 25%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.25s;
+}
+label{
+    color: white ;
+}
+
+
+
+

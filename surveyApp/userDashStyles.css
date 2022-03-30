@@ -1,0 +1,161 @@
+.container{
+   
+    
+    
+    padding:20px;
+    
+    
+
+   
+}
+
+.viewBtn{
+    height: 30px;
+    width: 120px;
+    justify-self: center;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+    
+}
+.viewBtn:hover{
+    height: 30px;
+    width: 120px;
+    justify-self: center;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: 0.25s;
+
+    
+    
+}
+
+   
+    
+
+
+
+
+
+/* #btn{
+    height: 30px;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.25s;
+
+} */
+
+.header{
+    height:60px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.listItem{
+    height:60px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+    
+    
+    
+    
+    
+
+
+h1{
+    color:white;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 60px;
+    
+}
+
+h2{
+    color:royalblue;
+    text-align: center;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 21px;
+    
+    
+}
+
+body{
+    background-image: url('matte.jpg');
+    
+    
+
+    
+    
+    
+}
+
+    
+    
+   
+    
+    
+    
+
+
+
+
+
+
+
+.cont{
+   background-image: linear-gradient(to right, royalblue , purple);
+   height: 500px auto;
+    width: 1000px;
+    
+    padding: 10px;
+    border-radius: 7px;
+    margin: 0 auto;
+    border: 2px solid black;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.btn{
+    height: 30px;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.25s;
+
+}
+
